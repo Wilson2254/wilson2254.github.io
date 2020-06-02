@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+body{
+  background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+  margin: 0;
+  padding: 0;
+}
+
+canvas{
+
+}
+
+.f_c, .f_c_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+span{
+  font-weight: bold;
+  font-size: 24px;
+}

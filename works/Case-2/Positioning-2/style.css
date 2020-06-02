@@ -1,0 +1,58 @@
+/*div{
+  position: relative;
+  left: 25%;
+  top: 23%;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+}*/
+
+.re_1{
+  position: absolute;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+  left: 0;
+  top: 0;
+  background: #BF7130;
+}
+
+.re_2{
+  position: absolute;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+  right: 0;
+  top: 0;
+  background: #A64B00;
+}
+
+.re_3{
+  position: absolute;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+  left: 0;
+  bottom: 0;
+  background: #FF9640
+}
+
+.re_4{
+  position: absolute;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+  right: 0;
+  bottom: 0;
+  background: #FFB273
+}
+
+.re_5{
+  position: absolute;
+  left: 28%;
+  top: 28%;
+  border: 3px dashed #000000;
+  height: 45%;
+  width: 45%;
+  background: #BF3030;
+}

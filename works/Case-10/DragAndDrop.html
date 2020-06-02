@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" dir="">
+  <head>
+    <meta charset="utf-8">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe / Drag and Drop</h1>
+    <div class="field">
+    <div id="big">
+      <div id="big1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big5" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big6" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big7" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big8" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+      <div id="big9" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+    </div>
+  </div>
+        <div id="cont" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+          <div id="boxA1" draggable="true" ondragstart="return dragStart(event)">X</div>
+          <div id="boxB1" draggable="true" ondragstart="return dragStart(event)">O</div>
+          <div id="boxA2" draggable="true" ondragstart="return dragStart(event)">X</div>
+          <div id="boxB2" draggable="true" ondragstart="return dragStart(event)">O</div>
+          <div id="boxA3" draggable="true" ondragstart="return dragStart(event)">X</div>
+          <div id="boxB3" draggable="true" ondragstart="return dragStart(event)">O</div>
+          <div id="boxA4" draggable="true" ondragstart="return dragStart(event)">X</div>
+          <div id="boxB4" draggable="true" ondragstart="return dragStart(event)">O</div>
+          <div id="boxA5" draggable="true" ondragstart="return dragStart(event)">X</div>
+          <div id="boxB5" draggable="true" ondragstart="return dragStart(event)">O</div>
+          </div>
+  </body>
+</html>

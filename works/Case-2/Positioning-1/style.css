@@ -1,0 +1,8 @@
+div{
+  position: absolute;
+  left: 15%;
+  bottom: 13%;
+  border: 3px dashed #000000;
+  height: 70%;
+  width: 70%;
+}

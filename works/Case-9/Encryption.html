@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Encryption</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <p>Mono-Alphabetic Replacement Encryption</p>
+      <p>Source text</p>
+      <textarea rows="8" cols="80" id="My_Text">Подобная игра природы, впрочем, случается на разных исторических картинах, неизвестно в какое время, откуда и кем привезенных к нам в Россию, иной раз даже нашими вельможами, любителями искусств, накупившими их в Италии по совету везших их курьеров. Господин скинул с себя картуз и размотал с шеи шерстяную, радужных цветов косынку.</textarea>
+      <p>Key phrase for encoding.</p>
+      <textarea rows="8" cols="80" id="My_Key">Какое низкое коварство Полуживого забавлять,</textarea> <br>
+      <button type="button" name="button" onclick="MonoTime()">Encode</button>
+      <p>Processed Passphrase + Alphabet</p>
+      <input id="Res_1"></input>
+      <input id="Res_2"></input>
+      <p>Coding result</p>
+      <textarea rows="8" cols="80" id="My_res" placeholder="The result of coding will be shown here, divided into 5 characters"></textarea> <br>
+      <button type="button" name="button" onclick="NotMonoTime()">Decode</button>
+      <p>Decoding result</p>
+    <textarea rows="8" cols="80" id="My_res_de" placeholder="Decoding result will be shown here."></textarea>
+  </body>
+</html>

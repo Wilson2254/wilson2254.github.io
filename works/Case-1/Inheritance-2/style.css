@@ -1,0 +1,58 @@
+h1{
+  text-align: center;
+  color: red;
+  font-size: 12pt;
+}
+
+ul {
+  list-style-type: decimal;
+  color: red;
+  font-size: 11pt;
+   }
+
+ul>li:first-child{
+font-weight: bold;
+}
+
+ul>li>span{
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+}
+
+h2{
+  color:green;
+  font-size: 11pt;
+}
+
+p>span{
+  font-weight: bold;
+  color: red;
+}
+
+p:first-of-type{
+  font-family: Arial;
+  font-size: 11pt;
+}
+
+p:nth-of-type(2)>span{
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+}
+
+ul:nth-of-type(2){
+  list-style-type: disc;
+  font-style: italic;
+  color: #800080;
+}
+
+ul:nth-of-type(2)>li>span{
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+ul:nth-of-type(2)>li{
+font-weight:normal;
+}

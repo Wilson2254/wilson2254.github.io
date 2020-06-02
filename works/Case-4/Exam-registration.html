@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exam registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="blocks">
+      <div class="first_block">
+        <img src="stud.png" alt="">
+        <form name="f1" method="" action="" class="form">
+        Student
+        <input id="student" type="text" size="60" maxlength="60" placeholder="Student surname"  />
+        Group
+        <input id="group" type="text" size="10" maxlength="4" placeholder="Groups" pattern="[0-9]{4}" />
+        <span class="form__error">This field should contain a group in 1234 format (four digits)</span>
+        Course
+        <select id="course" size="1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        Faculty
+        <select id="spec_s" size="1">
+          <option value="SAU">SAU</option>
+          <option value="FEIN">FEIN</option>
+          <option value="FSGN">FSGN</option>
+          <option value="IFI">IFI</option>
+        </select>
+        </form>
+      </div>
+
+      <div class="second_block">
+        <img src="teach.png" alt="">
+        <form name="f2" method="get" action="" class="form">
+        Teacher
+        <input id="teacher" type="text" size="60" maxlength="60" placeholder="Teacher surname"/>
+        Subject
+        <select id="disc" size="1">
+          <option value="Operating systems">Operating systems</option>
+          <option value="Technology solutions">Technology solutions</option>
+          <option value="Methods of optimization">Methods of optimization</option>
+          <option value="Theory of statistic">Theory of statistic</option>
+        </select>
+        Faculty
+        <select id="spec_t" size="1">
+          <option value="SAU">SAU</option>
+          <option value="FEIN">FEIN</option>
+          <option value="FSGN">FSGN</option>
+          <option value="IFI">IFI</option>
+        </select>
+        Dat
+        <select id="day" size="1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        Month
+        <select id="month" size="1">
+          <option value="December">December</option>
+          <option value="January">January</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+        </select>
+        Time
+        <input id="time" type="text" size="10" maxlength="5" placeholder="HH:MM" pattern="(2[0-3]|[0-1]\d):[0-5]\d" />
+        <span class="form__error">This field should contain the time in the format HH:MM</span>
+        Change form
+          <input  name="change" checked type="radio" value="Full-time"> Full-time
+          <input  name="change" type="radio" value="Correspondence"> Correspondence
+        </form>
+      </div>
+    </div>
+    <div id="result" class="res"></div>
+    <button type="submit" id="submit" onclick="result_form()">Sign up</button>
+  </body>
+</html>
