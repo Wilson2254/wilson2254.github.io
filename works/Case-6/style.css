@@ -1,19 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
   text-align: center;
-}
-input:nth-of-type(3){
-  margin-top: 50px;
-  font-size: 20pt;
-  width: 250px;
+  display: flex;
+  justify-content: center;
 }
 
-input:nth-of-type(1n){
+input:nth-of-type(3){
+  font-size: 36px;
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  border-color: black;
+  background-color: #8C00FA;
+  color: white;
+}
+
+input:nth-of-type(3)::-webkit-input-placeholder { color: white; }
+input:nth-of-type(3)::-moz-placeholder { color: white; }
+
+input:nth-of-type(1), input:nth-of-type(2){
   font-size: 20pt;
+
 }
 
 input{
   resize: none;
-  width: 150px;
+  width: 236px;
   height: auto;
   text-align: center;
+  margin-top: 38px;
+  border: solid 1px;
+}
+
+.main{
+  background-image: url(Fotolia_53649479_Subscription_XL.jpg);
+  width: 339px;
+  height: 510px;
+  border: solid 1px;
+}
+
+.but{
+  margin-left: 36%;
+  background-color: #89DD74;
+  font-size: 18px;
+  width: 89px;
+  height: 89px;
+  margin-top: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.but:hover{
+  background-color: #31F300
 }

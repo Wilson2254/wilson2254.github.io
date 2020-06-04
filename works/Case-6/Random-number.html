@@ -5,13 +5,19 @@
     <title>Random number</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
   </head>
   <body>
-  <form class="Random" action="index.html" method="post">
-    <input id="First_num" maxlength="6" onkeypress='validate(event)' placeholder="Number"></input>
-    <button  type="button" onclick="myrandom()">Generate</button>
-    <input id="Second_num" maxlength="6" onkeypress='validate(event)' placeholder="Number"></input> <br>
-    <input id="Res_num" disabled="disabled" placeholder="Result"></input>
-  </form>
+    <div class="main">
+      <form class="Random" action="index.html" method="post">
+        <input id="First_num" maxlength="6" onkeypress='validate(event)' placeholder="Number"></input>
+        <input id="Second_num" maxlength="6" onkeypress='validate(event)' placeholder="Number"></input> <br>
+        <div class="but" onclick="myrandom()">
+          Click
+        </div>
+        <input id="Res_num" disabled="disabled" placeholder="Result"</input>
+      </form>
+    </div>
+
   </body>
 </html>
