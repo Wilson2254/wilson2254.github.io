@@ -1,11 +1,19 @@
 body{
   text-align: center;
 }
-textarea:nth-of-type(3){
+input:nth-of-type(3){
   margin-top: 50px;
+  font-size: 20pt;
+  width: 250px;
+}
+
+input:nth-of-type(1n){
   font-size: 20pt;
 }
 
-textarea:nth-of-type(1n){
-  font-size: 20pt;
+input{
+  resize: none;
+  width: 150px;
+  height: auto;
+  text-align: center;
 }

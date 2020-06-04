@@ -8,10 +8,10 @@
   </head>
   <body>
   <form class="Random" action="index.html" method="post">
-    <textarea id="First_num" rows="1" cols="2"></textarea>
-    <button  type="button" onclick="countRabbits()" name="Res">Generate</button>
-    <textarea id="Second_num" rows="1" cols="2"></textarea> <br>
-    <textarea id="Res_num" rows="1" cols="10"></textarea>
+    <input id="First_num" maxlength="6" onkeypress='validate(event)'></input>
+    <button  type="button" onclick="myrandom()" name="Res">Generate</button>
+    <input id="Second_num" maxlength="6" onkeypress='validate(event)'></input> <br>
+    <input id="Res_num" disabled="disabled"></input>
   </form>
   </body>
 </html>

@@ -1,10 +1,23 @@
-function countRabbits() {
-  let one_num = document.getElementById("First_num").value;
-  let sec_num = document.getElementById("Second_num").value;
-  let res_num = function getRandomInRange(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
-  document.getElementById("Res_num").value = res_num(one_num, sec_num);
+function myrandom() {
+  let one_num = document.getElementById("First_num").value.toString();
+  let sec_num = document.getElementById("Second_num").value.toString();
+  let regex = /[0-9]|\./;
+  if (sec_num<one_num || !regex.test(one_num) || !regex.test(sec_num))
+    document.getElementById("Res_num").value = "Invalid condition";
+  else{
+    min = Math.ceil(one_num);
+    max = Math.floor(sec_num);
+    document.getElementById("Res_num").value = Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+}
+
+function validate(evt) {
+  let theEvent = evt;
+  let key = theEvent.keyCode;
+  key = String.fromCharCode( key );
+  let regex = /[0-9]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
 }
