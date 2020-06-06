@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_block{
+  margin: 0 40% 0 40%;
+  text-align: center;
+  border: solid 3px;
+}
+
+.result{
+  text-align: center;
+}
+
+.result>input{
+  height: 40px;
+  font-size: 22pt;
+}
+
+.buttons>input{
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 24pt;
+}
