@@ -11,3 +11,10 @@ function make_reverse(){
   cell = cell.split('').reverse().join('');
   document.getElementById('res_reverse').value = cell;
 }
+
+function make_concat(){
+  let cell1 = document.getElementById('input_concat1').value.split('');
+  let cell2 = document.getElementById('input_concat2').value.split('');
+  let cell = cell1.concat(cell2);
+  document.getElementById('res_concat').value = cell.join('');
+}
