@@ -18,3 +18,10 @@ function make_concat(){
   let cell = cell1.concat(cell2);
   document.getElementById('res_concat').value = cell.join('');
 }
+
+function make_for(){
+  let cell = document.getElementById('input_for').value.split('');
+  cell.forEach((item) => {
+  document.getElementById('res_for').value+=item+' ';
+  });
+}
