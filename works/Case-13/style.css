@@ -11,6 +11,11 @@ body{
   text-align: center;
 }
 
+
+.desc>span{
+  margin-right: 30px;
+}
+
 span{
   font-size: 18px;
   margin-right: 10px;
@@ -18,7 +23,7 @@ span{
 
 input{
   height: 21px;
-  width: 120px;
+  width: 80px;
   margin-right: 10px;
 }
 
@@ -26,10 +31,21 @@ button{
   height: 27px;
   width: 84px;
   margin-right: 10px;
+  font-size: 16px;
 }
 
 .splice{
   border-bottom: 1px solid;
   padding: 20px 0 20px 0 ;
   margin: 0 15px 0 15px;
+}
+
+.reverse{
+  border-bottom: 1px solid;
+  padding: 20px 0 20px 0 ;
+    margin-left: 25px;
+}
+
+.reverse>button{
+  width: auto;
 }
