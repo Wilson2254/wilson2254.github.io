@@ -25,3 +25,11 @@ function make_for(){
   document.getElementById('res_for').value+=item+' ';
   });
 }
+
+function make_num(){
+  let cell = document.getElementById('input_num1').value.split('');
+  let cell2 = document.getElementById('input_num1').value.split('');
+  cell = cell.indexOf(document.getElementById('input_num2').value);
+  document.getElementById('res_num').value = cell;
+  document.getElementById('res_num2').value = cell2.includes(document.getElementById('input_num2').value);
+}
