@@ -28,8 +28,20 @@ function make_for(){
 
 function make_num(){
   let cell = document.getElementById('input_num1').value.split('');
-  let cell2 = document.getElementById('input_num1').value.split('');
+  let cell2 = document.getElementById('input_num2').value.split('');
   cell = cell.indexOf(document.getElementById('input_num2').value);
   document.getElementById('res_num').value = cell;
   document.getElementById('res_num2').value = cell2.includes(document.getElementById('input_num2').value);
+}
+
+function find_fruit(){
+  let cell = document.getElementById('input_find_item2').value;
+  let fruit = [
+  {id: 1, name: "Apple"},
+  {id: 2, name: "Banana"},
+  {id: 3, name: "Orange"}
+];
+  document.getElementById('res_fruit').value = fruit.find(item => item.id == cell).name;
+
+
 }

@@ -15,13 +15,23 @@ td{
   padding: 5px;
 }
 
-
-
-button{
+button, input{
   word-wrap: break-word;
   width: 100px;
 }
 
-input{
-  width: 100px;
+#input_find_item1{
+  height: 45px;
+  width: 75px;
+  resize: none;
+}
+
+#input_find_item2{
+  width: 20px;
+}
+
+tr:nth-of-type(7)>td:nth-of-type(2){
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
