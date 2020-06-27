@@ -11,67 +11,17 @@ body{
   text-align: center;
 }
 
-
-.desc>span{
-  margin-right: 30px;
+td{
+  padding: 5px;
 }
 
-span{
-  font-size: 18px;
-  margin-right: 10px;
+
+
+button{
+  word-wrap: break-word;
+  width: 100px;
 }
 
 input{
-  height: 21px;
-  width: 80px;
-  margin-right: 10px;
-}
-
-button{
-  height: 27px;
-  width: 84px;
-  margin-right: 10px;
-  font-size: 16px;
-}
-
-.splice{
-  border-bottom: 1px solid;
-  padding: 20px 0 20px 0 ;
-  margin: 0 15px 0 15px;
-}
-
-.reverse{
-  border-bottom: 1px solid;
-  padding: 20px 0 20px 0 ;
-  margin: 0 15px 0 15px;
-}
-
-.reverse>button{
-  width: auto;
-}
-
-.concat{
-  border-bottom: 1px solid;
-  padding: 20px 0 20px 0 ;
-  margin: 0 15px 0 15px;
-}
-
-.concat>button{
-  width: auto;
-}
-
-.foreach{
-  border-bottom: 1px solid;
-  padding: 20px 0 20px 0 ;
-  margin: 0 15px 0 15px;
-}
-
-.number>input:nth-of-type(2), .number>input:nth-of-type(3){
-  width: 20px;
-}
-
-.number{
-  border-bottom: 1px solid;
-  padding: 20px 0 20px 0 ;
-  margin: 0 15px 0 15px;
+  width: 100px;
 }
