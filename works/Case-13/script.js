@@ -42,6 +42,15 @@ function find_fruit(){
   {id: 3, name: "Orange"}
 ];
   document.getElementById('res_fruit').value = fruit.find(item => item.id == cell).name;
+}
 
-
+function make_filter(){
+  let a = 0;
+  let cell = document.getElementById('input_filter1').value.split('');
+  let cell2 = document.getElementById('input_filter2').value.split('');
+  cell.filter(item => {
+    if(item==cell2)
+    return a++;
+  });
+  document.getElementById('res_filter').value = a;
 }
