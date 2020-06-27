@@ -50,7 +50,7 @@ function make_filter(){
   let cell2 = document.getElementById('input_filter2').value.split('');
   cell.filter(item => {
     if(item==cell2)
-    return a++;
+    a++;
   });
   document.getElementById('res_filter').value = a;
 }
