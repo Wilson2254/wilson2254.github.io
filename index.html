@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>WebFace</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="arrowTop" hidden>
-      <img src="img/up_arrow.png" alt="" width="80px" height="80px">
+
+<head>
+  <meta charset="utf-8">
+  <title>WebFace</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="arrowTop" hidden>
+    <img src="img/up_arrow.png" alt="" width="80px" height="80px">
+  </div>
+  <nav role="navigation">
+    <div id="menu_content">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="#Home">
+          <li>Home</li>
+        </a>
+        <a href="#about_info">
+          <li>About</li>
+        </a>
+        <a href="#works_text">
+          <li>Cases</li>
+        </a>
+        <a href="#git_info">
+          <li>Git</li>
+        </a>
+        <!-- <a href="#contact"><li>Contact</li></a> -->
+      </ul>
     </div>
-    <nav role="navigation">
-      <div id="menu_content">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <a href="#Home"><li>Home</li></a>
-          <a href="#about_info"><li>About</li></a>
-          <a href="#works_text"><li>Cases</li></a>
-          <a href="#git_info"><li>Git</li></a>
-          <!-- <a href="#contact"><li>Contact</li></a> -->
-        </ul>
-      </div>
-    </nav>
-    <header>
+  </nav>
+  <header>
     <div class="logo" id="Home">
       <a href="https://wilson2254.github.io/"><img src="img/logo.png" width=200px></a>
     </div>
     <div class="site_info">
       Portfolio with cases for employers and site visitors
     </div>
-    </header>
-    <main>
-      <div class="about_info" id="about_info">
-        <div class="about_text">
-          Welcome to the site of Alexander Poteryaiko. Here are all the cases of completed projects that show the level of work in the field of front-end development,
-          the date of their creation, as well as other interesting information.
-        </div>
-        <div class="about_img">
-          <img src="img/info_img2.png" alt="Web" width=400px>
-        </div>
+  </header>
+  <main>
+    <div class="about_info" id="about_info">
+      <div class="about_text">
+        Welcome to the site of Alexander Poteryaiko. Here are all the cases of completed projects that show the level of
+        work in the field of front-end development,
+        the date of their creation, as well as other interesting information.
       </div>
-      <div class="works_text" id="works_text">
-        Each case can be viewed and tested for correct operation.
+      <div class="about_img">
+        <img src="img/info_img2.png" alt="Web" width=400px>
       </div>
-      <div class="works">
-        <div class="work">
+    </div>
+    <div class="works_text" id="works_text">
+      Each case can be viewed and tested for correct operation.
+    </div>
+    <div class="works">
+      <div class="work">
         <div class="front">
           <div class="case_number_and_date">
             <h2>Case №1</h2>
@@ -74,332 +85,386 @@
           <div class="case_button" onclick="func(this)">
             Go back
           </div>
-      </div>
+        </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №2</h2>
-          <h3>Date of creation: Mar 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №2</h2>
+            <h3>Date of creation: Mar 2020</h3>
+          </div>
+          <div class="case_title">
+            Positioning
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Positioning
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML and CSS</li>
+              <li>This case will show you my work with positioning</li>
+              <li><a href="works\Case-2\Positioning-1\Positioning-1.html" target="_blank">Check Positioning-1</a></li>
+              <li><a href="works\Case-2\Positioning-2\Positioning-2.html" target="_blank">Check Positioning-2</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML and CSS</li>
-            <li>This case will show you my work with positioning</li>
-            <li><a href="works\Case-2\Positioning-1\Positioning-1.html" target="_blank">Check Positioning-1</a></li>
-            <li><a href="works\Case-2\Positioning-2\Positioning-2.html" target="_blank">Check Positioning-2</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №3</h2>
-          <h3>Date of creation: Mar 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №3</h2>
+            <h3>Date of creation: Mar 2020</h3>
+          </div>
+          <div class="case_title">
+            Flexbox/ adaptability
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Flexbox/ adaptability
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML and CSS</li>
+              <li>This case will show you my work with flexbox and adaptability</li>
+              <li><a href="works\Case-3\Layout-with-Flexbox.html" target="_blank">Check Flexbox layout</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML and CSS</li>
-            <li>This case will show you my work with flexbox and adaptability</li>
-            <li><a href="works\Case-3\Layout-with-Flexbox.html" target="_blank">Check Flexbox layout</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №4</h2>
-          <h3>Date of creation: Apr 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №4</h2>
+            <h3>Date of creation: Apr 2020</h3>
+          </div>
+          <div class="case_title">
+            Exam registration
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Exam registration
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my work with JavaScript on example app for exam</li>
+              <li><a href="works\Case-4\Exam-registration.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my work with JavaScript on example app for exam</li>
-            <li><a href="works\Case-4\Exam-registration.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №5</h2>
-          <h3>Date of creation: Apr 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №5</h2>
+            <h3>Date of creation: Apr 2020</h3>
+          </div>
+          <div class="case_title">
+            Online diary
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Online diary
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my work with LocalStorage on example app "Online diary"</li>
+              <li><a href="works\Case-5\Local-storage.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my work with LocalStorage on example app "Online diary"</li>
-            <li><a href="works\Case-5\Local-storage.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №6</h2>
-          <h3>Date of creation: Mar 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №6</h2>
+            <h3>Date of creation: Mar 2020</h3>
+          </div>
+          <div class="case_title">
+            Random number
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Random number
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my work with JavaScript on example app for generation random number</li>
+              <li><a href="works\Case-6\Random-number.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my work with JavaScript on example app for generation random number</li>
-            <li><a href="works\Case-6\Random-number.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №7</h2>
-          <h3>Date of creation: Nov 2019</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №7</h2>
+            <h3>Date of creation: Nov 2019</h3>
+          </div>
+          <div class="case_title">
+            Web site №1
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Web site №1
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my adaptive web site example</li>
+              <li><a href="works\Case-7\Site-1.html" target="_blank">Check web site</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my adaptive web site example</li>
-            <li><a href="works\Case-7\Site-1.html" target="_blank">Check web site</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №8</h2>
-          <h3>Date of creation: Nov-Dec 2019</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №8</h2>
+            <h3>Date of creation: Nov-Dec 2019</h3>
+          </div>
+          <div class="case_title">
+            Web site №2
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Web site №2
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScript and jQuery</li>
+              <li>This case will show you my adaptive web site example</li>
+              <li><a href="works\Case-8\Site-2.html" target="_blank">Check web site</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS, JavaScript and jQuery</li>
-            <li>This case will show you my adaptive web site example</li>
-            <li><a href="works\Case-8\Site-2.html" target="_blank">Check web site</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №9</h2>
-          <h3>Date of creation: Mar 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №9</h2>
+            <h3>Date of creation: Mar 2020</h3>
+          </div>
+          <div class="case_title">
+            Encryption
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Encryption
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my work with JavaScript on example app for text encryption</li>
+              <li><a href="works\Case-9\Encryption.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my work with JavaScript on example app for text encryption</li>
-            <li><a href="works\Case-9\Encryption.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №10</h2>
-          <h3>Date of creation: April 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №10</h2>
+            <h3>Date of creation: April 2020</h3>
+          </div>
+          <div class="case_title">
+            Drag and Drop Game
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Drag and Drop Game
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS and JavaScript</li>
+              <li>This case will show you my work with JavaScript on example Drag and Drop game</li>
+              <li><a href="works\Case-10\DragAndDrop.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS and JavaScript</li>
-            <li>This case will show you my work with JavaScript on example Drag and Drop game</li>
-            <li><a href="works\Case-10\DragAndDrop.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №11</h2>
-          <h3>Date of creation: April 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №11</h2>
+            <h3>Date of creation: April 2020</h3>
+          </div>
+          <div class="case_title">
+            COVID statistics (Russia)
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          COVID statistics (Russia)
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScript and CharJS</li>
+              <li>This case will show you my work with JavaScript and CharJS on the example of coronavirus statistics
+              </li>
+              <li><a href="works\Case-11\Covid.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS, JavaScript and CharJS</li>
-            <li>This case will show you my work with JavaScript and CharJS on the example of coronavirus statistics</li>
-            <li><a href="works\Case-11\Covid.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №12</h2>
-          <h3>Date of creation: April 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №12</h2>
+            <h3>Date of creation: April 2020</h3>
+          </div>
+          <div class="case_title">
+            Work with delegation (Calculator)
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Work with delegation (Calculator)
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScript and CharJS</li>
+              <li>This case will show you my work with JavaScript and delegation on the example of Calculator</li>
+              <li><a href="works\Case-12\Calcul.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS, JavaScript and CharJS</li>
-            <li>This case will show you my work with JavaScript and delegation on the example of Calculator</li>
-            <li><a href="works\Case-12\Calcul.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
       </div>
       <div class="work">
-      <div class="front">
-        <div class="case_number_and_date">
-          <h2>Case №13</h2>
-          <h3>Date of creation: June 2020</h3>
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №13</h2>
+            <h3>Date of creation: June 2020</h3>
+          </div>
+          <div class="case_title">
+            Work with arrays
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
         </div>
-        <div class="case_title">
-          Work with arrays
-        </div>
-        <div class="case_button" onclick="func(this)">
-          View more
-        </div>
-      </div>
-      <div class="back">
-        <div class="work_description">
-          <ul>
-            <li>Tools: HTML, CSS, JavaScript</li>
-            <li>This case will show you my work with JavaScript and arrays</li>
-            <li><a href="works\Case-13\Arrays.html" target="_blank">Check app</a></li>
-          </ul>
-        </div>
-        <div class="case_button" onclick="func(this)">
-          Go back
-        </div>
-      </div>
-      </div>
-      </div>
-      <div class="git_info" id="git_info">
-        <div class="git_img">
-          <img src="img/git_img.png" alt="Web" width=250px align="middle">
-          <a href="https://github.com/Wilson2254" target="_blank">Go to GitHub</a>
-        </div>
-        <div class="git_text">
-          All the work done with the source code is also posted on the GitHub. You can familiarize yourself with them at this link.
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScript</li>
+              <li>This case will show you my work with JavaScript and arrays</li>
+              <li><a href="works\Case-13\Arrays.html" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
         </div>
       </div>
-      <!-- <div class="form_text" id="contact">
+      <div class="work">
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №14</h2>
+            <h3>Date of creation: June 2020</h3>
+          </div>
+          <div class="case_title">
+            Todo List Vue
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
+        </div>
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScrip, Vue CLI, WebPack</li>
+              <li>This case will show you my work with Vue</li>
+              <li><a href="https://blchi.csb.app/" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
+        </div>
+      </div>
+      <div class="work">
+        <div class="front">
+          <div class="case_number_and_date">
+            <h2>Case №15</h2>
+            <h3>Date of creation: June-July 2020</h3>
+          </div>
+          <div class="case_title">
+            Music Player Vue
+          </div>
+          <div class="case_button" onclick="func(this)">
+            View more
+          </div>
+        </div>
+        <div class="back">
+          <div class="work_description">
+            <ul>
+              <li>Tools: HTML, CSS, JavaScrip, Vue CLI, Vue Router, WebPack</li>
+              <li>This case will show you my work with Vue on the example of Music Player</li>
+              <li><a href="https://y9dwz.csb.app/" target="_blank">Check app</a></li>
+            </ul>
+          </div>
+          <div class="case_button" onclick="func(this)">
+            Go back
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="git_info" id="git_info">
+      <div class="git_img">
+        <img src="img/git_img.png" alt="Web" width=250px align="middle">
+        <a href="https://github.com/Wilson2254" target="_blank">Go to GitHub</a>
+      </div>
+      <div class="git_text">
+        All the work done with the source code is also posted on the GitHub. You can familiarize yourself with them at
+        this link.
+      </div>
+    </div>
+    <!-- <div class="form_text" id="contact">
         If you have any suggestions or questions, please indicate this on the form.
       </div>
         <form class="form_field" action="mail.php" method="post">
@@ -409,29 +474,30 @@
             <p><textarea placeholder="Write text" class="form_input"></textarea></p>
             <input name="submit" value="Submit" type="submit" class="form_button">
         </form> -->
-    </main>
-    <footer>
-      <div class="left_foot">
-        <p>©2020 <a href="https://vk.com/iasasha" target="_blank">Alexander Poteryaiko</a></p>
-        <p>All rights reserved</p>
+  </main>
+  <footer>
+    <div class="left_foot">
+      <p>©2020 <a href="https://vk.com/iasasha" target="_blank">Alexander Poteryaiko</a></p>
+      <p>All rights reserved</p>
+    </div>
+    <div class="right_foot">
+      <div class="icons_share" class="sharer" data-sharer="facebook" data-url="https://wilson2254.github.io/">
+        <img src="img/fb.png" alt="">
       </div>
-      <div class="right_foot">
-          <div class="icons_share" class="sharer" data-sharer="facebook" data-url="https://wilson2254.github.io/">
-            <img src="img/fb.png" alt="">
-          </div>
-          <div class="icons_share" class="sharer" data-sharer="vk" data-url="https://wilson2254.github.io/">
-            <img src="img/vk.png" alt="">
-          </div>
-          <div class="icons_share" class="sharer" data-sharer="twitter" data-url="https://wilson2254.github.io/">
-            <img src="img/tw.png" alt="">
-          </div>
-          <div class="icons_share" class="sharer" data-sharer="telegram" data-url="https://wilson2254.github.io/">
-            <img src="img/tel.png" alt="">
-          </div>
+      <div class="icons_share" class="sharer" data-sharer="vk" data-url="https://wilson2254.github.io/">
+        <img src="img/vk.png" alt="">
       </div>
-    </footer>
-  </body>
- <script src="script.js"></script>
- <script src="sharer.min.js"></script>
- <script src="anime.min.js"></script>
+      <div class="icons_share" class="sharer" data-sharer="twitter" data-url="https://wilson2254.github.io/">
+        <img src="img/tw.png" alt="">
+      </div>
+      <div class="icons_share" class="sharer" data-sharer="telegram" data-url="https://wilson2254.github.io/">
+        <img src="img/tel.png" alt="">
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+<script src="sharer.min.js"></script>
+<script src="anime.min.js"></script>
+
 </html>
