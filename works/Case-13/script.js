@@ -59,3 +59,8 @@ function make_map(){
   let res = document.getElementById('input_map1').value.split('').map(item => item*document.getElementById('input_map2').value.split(''));
   document.getElementById('res_map').value = res.join('');
 }
+
+function make_sort(){
+  let res = document.getElementById('input_sort1').value.split('').sort((a, b) => a - b);
+  document.getElementById('res_sort').value = res.join('');
+}
