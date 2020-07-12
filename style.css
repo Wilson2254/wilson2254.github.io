@@ -28,6 +28,11 @@ header{
   cursor: pointer;
 }
 
+#arrowTop>img{
+  width: 80px;
+  height: 80px;
+}
+
 #arrowTop:hover{
   opacity: 0.4;
 }
@@ -35,6 +40,10 @@ header{
 .logo{
   width: 30%;
   padding-left: 5%;
+}
+
+.logo>a>img{
+  width: 200px;
 }
 
 .site_info{
@@ -65,18 +74,18 @@ nav{
   transition: transform 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
-#menu>a{
+#menu>li>a{
   text-decoration:none;
   color:#333;
   font-size: 24pt;
   font-weight: bold;
 }
 
-#menu>a:hover{
+#menu>li>a:hover{
   color: #FFBF40;
 }
 
-#menu>a>li{
+#menu>li{
   margin-bottom: 50px;
 }
 
@@ -125,6 +134,11 @@ z-index: 1;
   padding-top: 40px;
   text-align: right;
   border-left: 3px solid black;
+}
+
+.about_img>img{
+  margin-left: 0;
+  width: 400px;
 }
 
 .works_text{
@@ -491,10 +505,10 @@ footer{
   #menu{
     padding: 150px 130px 100px 10px;
   }
-  #menu>a>li {
+  #menu>li {
     margin-bottom: 35px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 22pt;
   }
   #menu_content>span {
@@ -604,10 +618,10 @@ footer{
   #menu{
     padding: 140px 90px 100px 10px;
   }
-  #menu>a>li {
+  #menu>li {
     margin-bottom: 25px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 18pt;
   }
   #menu_content>span {
@@ -670,10 +684,10 @@ footer{
   #menu{
     padding: 130px 70px 100px 10px;
   }
-  #menu>a>li {
+  #menu>li {
     margin-bottom: 20px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 16pt;
   }
   #menu_content>span {
@@ -709,10 +723,10 @@ footer{
   #menu{
     padding: 130px 50px 100px 10px;
   }
-  #menu>a>li {
+  #menu>li {
     margin-bottom: 20px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 16pt;
   }
   #menu_content>span {
@@ -725,7 +739,7 @@ footer{
 }
 
 @media screen and (max-height:600px){
-  #menu>a>li{
+  #menu>li{
     margin-bottom: 10px;
   }
   #menu{
@@ -734,24 +748,24 @@ footer{
 }
 
 @media screen and (max-height:350px){
-  #menu>a>li{
+  #menu>li{
     margin-bottom: 5px;
   }
   #menu{
     padding: 100px 100px 100px 10px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 16pt;
   }
 }
 @media screen and (max-height:300px){
-  #menu>a>li{
+  #menu>li{
     margin-bottom: 0px;
   }
   #menu{
     padding: 95px 100px 100px 10px;
   }
-  #menu>a {
+  #menu>li>a {
     font-size: 14pt;
   }
 }
